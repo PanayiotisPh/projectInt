@@ -3,11 +3,11 @@ server:
     contextPath: /map-exercise
   port: 8080
 spring:
-security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://cognito-idp.<aws-region>.amazonaws.com/<cognito-pool-id>
+  security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: https://cognito-idp.<aws-region>.amazonaws.com/<cognito-pool-id>
   datasource:
     url: jdbc:mariadb://database-1.c78r849sdugl.eu-north-1.rds.amazonaws.com/DEV100
     username: admin
