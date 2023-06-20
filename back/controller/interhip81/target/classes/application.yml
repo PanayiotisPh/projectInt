@@ -1,0 +1,20 @@
+server:
+  servlet:
+    contextPath: /map-exercise
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mariadb://database-1.c78r849sdugl.eu-north-1.rds.amazonaws.com/DEV100
+    username: admin
+    password: 123456789
+    driver-class-name: org.mariadb.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    generate-ddl: true
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MariaDBDialect
+        default_schema: DEV100

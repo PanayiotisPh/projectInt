@@ -1,0 +1,9 @@
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/repository/ClientDetailsRepository.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/controller/ClientDetailsController.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/ControllerHello.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/Interhip8Application.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/webConfig/webConfig.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/dto/ClientDetailsDTO.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/entity/ClientDetails.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/service/ClientDetailsService.java
+/home/ec2-user/controller/interhip81/src/main/java/com/mft/interhip8/controller/ClientDetailsMapper.java
